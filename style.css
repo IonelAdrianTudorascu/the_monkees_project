@@ -1,0 +1,208 @@
+
+/*------ Heading ---- */
+header {
+    margin: 0px ;
+    
+}
+body{
+    background-color: #bada55;
+}
+
+
+h1 ,h3 {
+    color: #bada55;
+    text-align: center;
+}
+.logo {
+    margin-left: 5px;
+    width:100vw;
+    height: 40vh;
+    background: url("../Media/images/cover4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    padding: 0;
+}
+
+.menuitem {
+    height: 60px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 60px;
+}
+
+
+.menuitem a i {
+    padding-top: 5px;
+    display: block;
+    color: #fafafa;
+    font-size: 20px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+/*---------- Hover------*/
+.hvr-sweep-to-bottom:before {
+    background: rgba(244, 128, 120, 0.2);
+    height: 60px;
+}
+/*--------- Colors and paddings -------*/
+.ui-menu-color-home {
+    background-color: lime;
+}
+
+.ui-menu-color-about {
+    background-color: navy;
+}
+.ui-menu-color-contact {
+    background-color: #3498db;
+}
+.ui-menu-color-media {
+    background-color: red;
+}
+.ui-menu-color-members {
+    background-color: #000;
+}
+
+/*--------------Footer -------*/
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+.social-links {
+    padding-bottom: 15px;
+}
+#footer-details {
+    margin: 20px;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background:red;
+}
+ 
+/*-----Mobile--- */
+
+
+
+   
+
+/*---- DropDown ---*/
+@media(max-width:480px){
+
+
+    
+
+#nav{
+    display: none;
+}
+.navDefault{
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    background-color: #4a4a4f;    
+}
+button{
+    border:none;
+    background-color: #0997d3;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.dropdownMenu {
+    list-style: none;
+    margin:0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    width: 150px;
+    z-index: -1;
+    text-align: center;
+    box-shadow: -16px 43px 41px 6px rgba(53,87,85,0.68);
+    transform: translateY(-100%);
+    transition: .5s ease-in-out;
+    
+}
+.dropdownLink{
+    text-decoration: none;
+    display: block;
+    background-color: #f9f9f9;
+    color: #4a4a4f;
+    padding: 10px 5px;
+    transition: background-color .5s ease-in-out, color .5s ease-in-out;
+}
+.dropdownLink:hover{
+    color:#fff;
+    background-color: #a0a0a3;
+}
+.dropdown{
+    width: 150px;
+    position: relative;
+}
+.dropdown:hover button{
+    background-color: #018ec5;
+}
+.dropdown:hover .dropdownMenu{
+   transform: translateY(0); 
+}
+
+}
+
+@media(min-width:490px){
+    .navDefault{
+        display: none;
+    }
+}
