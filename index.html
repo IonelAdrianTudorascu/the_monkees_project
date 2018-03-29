@@ -1,14 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
     <title> The Monkees Main Page </title>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="style.css" type="text/css" />
+     <link rel="stylesheet" href="style.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale-1">
+<style>
+    body{
+        background-color:lime;
+    }
+    
+   #left {
+    top: 10px;
+    float: left;
+    margin:10px 30px 30px 30px ;
+			}
+	.scroll {
+    overflow: scroll;
+}
+	.textposition{
+	height:350px;
+	text-align:center;
+	}
+.logo {
+    margin-left: 0px;
+    width:100vw;
+    height: 40vh;
+    background: url("Media/images/cover4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#left {
+    top:0px;
+    float: left;
+    margin:10px 10px 10px 10px;
+}
+.section-heading{
+    text-align: center;
+    color: ivory;
+}
+.personal-info-item{
+    color:red;
+}
+.three-reasons-heading{
+    color:blue;
+}
+</style>
 </head>
 <body>
 
@@ -18,7 +64,7 @@
         <ul class="dropdownMenu">
             <li class="dropdownItem"><a href="index.html" class="dropdownLink"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
             <li class="dropdownItem"><a href="about.html" class="dropdownLink"><i class="fa fa-book" aria-hidden="true"></i>About</a></li>
-            <li class="dropdownItem"><a href="members.html" class="dropdownLink"><i class="fa fa-user" aria-hidden="true"></i>Band</a></li>
+            <li class="dropdownItem"><a href="member.html" class="dropdownLink"><i class="fa fa-user" aria-hidden="true"></i>Band</a></li>
             <li class="dropdownItem"><a href="media.html" class="dropdownLink"><i class="fa fa-tv" aria-hidden="true"></i>Media</a></li>
             <li class="dropdownItem"><a href="contact.html" class="dropdownLink"><i class=" fa fa-envelope" aria-hidden="true"></i>Contact</a></li>
         
@@ -32,16 +78,16 @@
                 </div>
             <div class="row">
                         <ul id="nav" class="list-inline clearfix">
-                        <li class="col-xs-2 col-md-2 ui-menu-color-home menuitem">
+                        <li class="col-xs-3 col-md-3 ui-menu-color-home menuitem">
                             <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                         </li>
                         <li class="col-xs-2 col-md-2 ui-menu-color-about menuitem">
                             <a href="about.html" class="hvr-sweep-to-bottom"><i class="fa fa-book" aria-hidden="true"></i><span>About</span></a>
                         </li>
                         <li class="col-xs-3 col-md-3 ui-menu-color-members menuitem">
-                            <a href="members.html" class="hvr-sweep-to-bottom"><i class=" fa fa-user" aria-hidden="true"></i><span>Members of The Band</span></a>
+                            <a href="member.html" class="hvr-sweep-to-bottom"><i class=" fa fa-user" aria-hidden="true"></i><span>Members of The Band</span></a>
                         </li>
-                        <li class="col-xs-3 col-md-3ui-menu-color-media menuitem">
+                        <li class="col-xs-2 col-md-2 ui-menu-color-media menuitem">
                             <a href="media.html"  class="hvr-sweep-to-bottom"><i class="fa fa-tv" aria-hidden="true"></i><span>Media</span></a>
                         </li>
                         <li class="col-xs-2 col-md-2 ui-menu-color-contact menuitem ">
@@ -50,17 +96,114 @@
                     </ul>
                 </div>
 </header>
+ 
+ <section>
+    <div>
+        <img id="left" src="/Media/images/album2.jpg" alt="Album Cover"/>
+         <div class="row row-table">
+            <div  class="col-xs-12 col-sm-12 col-md-2 bg-color-personal-info textposition">
+                <div  class="row">
+                    <div class="col-md-12">
+                        <h3 class="section-heading uppercase">For Bookings Contact : </h3>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key">
+                        <p class="uppercase">Name:</p>
+                    </div>
+                    <div class="value">
+                        <p>John Grey</p>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key">
+                        <p class="uppercase">Address:</p>
+                    </div>
+                    <div class="value">
+                        <p>188 Sunnyvale,NY USA</p>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key">
+                        <p class="uppercase">Phone:</p>
+                    </div>
+                    <div class="value">
+                        <p>555 225 3330321</p>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key">
+                        <p class="uppercase">Email:</p>
+                    </div>
+                    <div class="value">
+                        <p>john_grey@hotmail.com</p>
+                    </div>
+                </div>
+            </div>
+                <div  class="col-xs-12 col-sm-12 col-md-4 bg-color-three-reasons">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="section-heading uppercase"> About The Monkees</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-xs-2 col-sm-2  col-md-2">
+                                <i class="three-reasons-icon fa fa-question" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-xs-10 col-sm-10 ">
+                                <h4 class="three-reasons-heading uppercase">How we started ?</h4>
+                                <p  class="textposition scroll personal-info-item">The Monkees were an American rock and pop band originally active between 1965 and 1971, with subsequent reunion albums and tours in the decades that followed. They were formed in Los Angeles in 1965 by Bob Rafelson and Bert Schneider for the American television series The Monkees which aired from 1966 to 1968. The musical acting quartet was composed of Americans Micky Dolenz, Michael Nesmith, and Peter Tork; and British actor and singer Davy Jones. The band's music was initially supervised by producer Don Kirshner, backed by the songwriting duo of Tommy Boyce and Bobby Hart.
+The four actor-musicians were allowed only limited roles in the recording studio for the first few months of their five-year career as "the Monkees". This was due in part to the amount of time required to film the television series.[1] Nonetheless, Nesmith did compose and produce some songs from the beginning, and Peter Tork contributed limited guitar work on the sessions produced by Nesmith. They eventually fought for the right to collectively supervise all musical output under the band's name. The television show was canceled in 1968, but the band continued to record music through 1971.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-xs-2 col-sm-2  col-md-2">
+                                <i class="three-reasons-icon fa fa-thumbs-up" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-xs-10 col-sm-10">
+                                <h4 class="three-reasons-heading uppercase">What can we offer?</h4>
+                                <p class="textposition scroll personal-info-item">
+                                    We can give you  unforgetable moments with all of our songs . Here you have some of our songs : 
+                                    (I'm Not Your) Steppin' Stone/(Theme From) The Monkees/Cuddly Toy/Daily Nightly/Daydream Believer/Don't Call On Me/Going Down/I'm A Believer/Last Train To Clarksville/Mary Mary/No Time/Pleasant Valley Sunday/Randy Scouse Git/Tapioca Tundra/Valleri/Words
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-xs-2 col-sm-2  col-md-2">
+                                <i class="three-reasons-icon fa fa-bolt" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-xs-10 col-sm-10">
+                                <h4 class="three-reasons-heading uppercase">Why hire us?</h4>
+                                <p class="personal-info-item">
+                                   We are the best rock band with a 50 years tradition 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+     </section>
+  
 
- <footer class="container-fluid">
+<footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub"><i class="fa fa-book" aria-hidden="true"></i>About</h5>
                 <p class="inline-block general-sub">
-                  The Monkees - Still rocking since 1966
+                  The Monkees - Still rocking since 1965
                 </p>
             </div>
             <div class="col-sm-4 ">
-                <h5 class="uppercase general-sub"><i class="fa fa-calendar" aria-hidden="true"></i> For bookings feel free to call Steve :<i class="fa fa-phone" aria-hidden="true"></i> 555-123-333-2224</h5>
+                <h5 class="uppercase general-sub"><i class="fa fa-calendar" aria-hidden="true"></i> For bookings feel free to call Steve :<i class="fa fa-phone" aria-hidden="true"></i> 555-225 3330321</h5>
                 <p class="inline-block general-sub">Contact us
                     <a href="contact.html"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                 </p>
