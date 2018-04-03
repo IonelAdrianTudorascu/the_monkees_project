@@ -25,13 +25,11 @@ h1 ,h3 {
     margin-left: 0px;
     width:100vw;
     height: 40vh;
-    background: url("Media/images/cover4.png");
+    background: url("./Media/images/cover4.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:contain;
 }
-
-
 .section-heading{
     text-align: center;
     color: ivory;
