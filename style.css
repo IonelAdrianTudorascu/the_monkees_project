@@ -1,7 +1,7 @@
 
 /*------ Heading ---- */
 header {
-    margin: 0px ;
+    margin: 1px ;
     
 }
 
@@ -92,6 +92,49 @@ h1 ,h3 {
 .ui-menu-color-members {
     background-color: #000;
 }
+/*-----------------Media Page------*/
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color:blue;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::before {
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: ivory;
+}
+
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
 
 /*--------------Footer -------*/
 
@@ -160,16 +203,9 @@ button[type="submit"] {
  
 /*-----Mobile--- */
 
-
-
-   
-
-/*---- DropDown ---*/
 @media(max-width:490px){
     
 
-
-    
 
 #nav{
     display: none;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
     <title> The Monkees Media Showcase </title>
     <meta charset='utf-8'>
@@ -13,6 +13,103 @@
         body {
             background-color:red;
         }
+        .timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color:lightgreen ;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::before {
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: ivory;
+}
+
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+.size{
+    width:440px;
+    height:300px;
+    margin:20px;
+    position:relative;
+}
+.float{
+    width:540px;
+    float:right;
+}
+
+.left {
+    width:400px;
+    height:700px;
+  }
+.img {
+    display:inline-block;
+    height:100px;
+    width:100px;
+}
+.scroll{
+    overflow:scroll;
+}
+.photo{
+    left:2px;
+    margin-bottom:-19px;
+    width:95vw;
+    height:120px;
+}
+.row{
+    margin-left:5px;
+}
+.center{
+    text-align:center;
+}
+p{
+    color:lightgreen;
+}
+
+
+.img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.img:hover{
+    -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+     transform:scale(2);
+}
     </style>
 </head>
 <body>
@@ -55,7 +152,81 @@
                     </ul>
                 </div>
 </header>
-
+<section class="container-fluid">
+    <div class="col-sm-12 col-xs-12 col-md-8 float ">
+      <div class="row size scroll">
+          <h3>Listen to our music</h3>
+        <p class="center">Clarksville</p>
+        <audio controls>
+  <source src="./Media/music/Clarksville.mp3" type="audio/mpeg">
+</audio>
+     <p class="center">Daydream Beliver</p>
+      <audio controls>
+  <source src="./Media/music/DaydreamBeliever.mp3" type="audio/mpeg">
+</audio>
+      <p class="center">I`m A Believer</p>
+      <audio controls>
+  <source src="./Media/music/ImABeliever.mp3" type="audio/mpeg">
+</audio>
+     <p class="center">Stepping Stone</p>
+ <audio controls>
+  <source src="./Media/music/SteppingStone.mp3" type="audio/mpeg">
+</audio>
+      </div>
+      <div class="row size">
+        <h3>Watch our music</h3>
+        <video width="400" height="280" controls>
+  <source src="./Media/video/TheMonkees.mp4" type="video/mp4">
+</video>
+      </div>
+      
+    </div>
+    
+        <div class="row left scroll">
+            <div class="col-xs-12 col-sm-12 col-md-8 center">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 center">
+                        <h3 class="history-heading uppercase">Discography</h3>
+                    </div>
+                </div>
+                <div class="history-items">
+                    <div class="timeline-item" dates="1966-1967">
+                        <h4>The Monkees(1966)</h4>
+                        <h4>More of the Monkees(1967)</h4>
+                        <h4>Headquarters(1967)</h4>
+                        <h4>Pisces, Aquarius, Capricorn & Jones Ltd.(1967)</h4>
+                    </div>
+                    <div class="timeline-item" dates="1968-1970">
+                        <h4>The Birds, The Bees & the Monkees (1968)</h4>
+                        <h4>Head (1968)</h4>
+                        <h4>Instant Replay (1969)</h4>
+                        <h4>The Monkees Present (1969)</h4>
+                        <h4>Changes (1970)</h4>
+                    </div>
+                    <div class="timeline-item" dates="1987-2016">
+                        <h4>Pool It! (1987)</h4>
+                        <h4>Justus (1996)</h4>
+                        <h4>Good Times! (2016)</h4>
+                    </div>
+                    
+            </div>
+                </div>
+            </div>
+         <h3>See our photo album</h3>
+         <div class="row photo scroll">
+        <div class="row">
+              <img class="img" src="./Media/images/album.jpg" alt="Album cover photo"/> 
+            <img class="img" src="./Media/images/album2.jpg" alt="Album cover photo"/> 
+            <img class="img" src="./Media/images/band.jpg" alt="Album cover photo"/> 
+            <img class="img" src="./Media/images/cover.jpg" alt="Album cover photo"/> 
+            <img class="img" src="./Media/images/cover1.jpg" alt="Album cover photo"/> 
+            <img class="img" src="./Media/images/cover2.png" alt="Album cover photo"/> 
+             <img class="img" src="./Media/images/cover3.jpg" alt="Album cover photo"/> 
+              <img class="img" src="./Media/images/cover4.png" alt="Album cover photo"/> 
+               <img class="img" src="./Media/images/monkees.jpg" alt="Album cover photo"/> 
+           </div>
+    </div>
+    </section>
  <footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
