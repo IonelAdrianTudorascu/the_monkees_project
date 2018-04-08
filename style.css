@@ -14,15 +14,13 @@ h1 ,h3 {
     float: left;
     margin:10px 30px 30px 30px ;
 			}
-	.scroll {
-    overflow: scroll;
-}
+
 	.textposition{
 	height:250px;
 	text-align:center;
 	}
 .logo {
-    margin-left: 0px;
+    margin-left: 2px;
     width:100vw;
     height: 40vh;
     background: url("./Media/images/cover4.png");
@@ -79,7 +77,7 @@ h1 ,h3 {
 }
 /*--------- Colors and paddings -------*/
 .ui-menu-color-home {
-    background-color: lime;
+    background-color:darkgrey;
 }
 
 .ui-menu-color-about {
@@ -139,6 +137,26 @@ footer {
 .social-links li a i:hover {
     background:red;
 }
+
+/*-----------------------Contact us ---*/
+.contact-heading {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e84610;
+    color: #fafafa;
+}
  
 /*-----Mobile--- */
 
@@ -147,7 +165,7 @@ footer {
    
 
 /*---- DropDown ---*/
-@media(max-width:480px){
+@media(max-width:490px){
     
 
 
@@ -210,9 +228,7 @@ button{
 .dropdown:hover .dropdownMenu{
    transform: translateY(0); 
 }
-
 }
-
 @media(min-width:490px){
     .navDefault{
         display: none;
