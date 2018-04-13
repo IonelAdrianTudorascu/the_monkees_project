@@ -13,63 +13,25 @@
         body {
             background-color:red;
         }
-        .timeline-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    color:lightgreen ;
-    border-left: 1px solid;
-}
-
-.timeline-item p {
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item::before {
-    content: attr(dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item::after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background: ivory;
-}
-
-.history-heading {
-    color: #fafafa;
-    margin-bottom: 50px;
-}
-
-.history-items {
-    margin-bottom: 30px;
-}
-.size{
-    width:440px;
-    height:300px;
-    margin:20px;
-    position:relative;
-}
-.float{
-    width:540px;
-    float:right;
-}
-
-.left {
-    width:400px;
-    height:700px;
-  }
+        h4{
+            color:lightgreen;
+        }
+        .view{
+					/* Make inline-Block*/
+			display: inline-block;			 
+			vertical-align: top;
+			width:400px;
+			margin:0 auto 0 auto;
+			}
+	    #left{
+			 float: right;
+			 margin:0 10px 10px 10px;
+		}
+		.right{
+			float: left;
+			margin:0 10px 10px 10px;
+		}
+  
 .img {
     display:inline-block;
     height:100px;
@@ -80,9 +42,9 @@
 }
 .photo{
     left:2px;
-    margin-bottom:-19px;
+    margin-bottom:1px;
     width:95vw;
-    height:120px;
+    height:140px;
 }
 .row{
     margin-left:5px;
@@ -153,10 +115,24 @@ p{
                 </div>
 </header>
 <section class="container-fluid">
-    <div class="col-sm-12 col-xs-12 col-md-8 float ">
-      <div class="row size scroll">
-          <h3>Listen to our music</h3>
-        <p class="center">Clarksville</p>
+   <div  id="left" class="view center">
+       <h3>Discography</h3>
+         <h4>The Monkees(1966)</h4>
+         <h4>More of the Monkees(1967)</h4>
+         <h4>Headquarters(1967)</h4>
+         <h4>Pisces, Aquarius, Capricorn & Jones Ltd.(1967)</h4>
+         <h4>The Birds, The Bees & the Monkees (1968)</h4>
+         <h4>Head (1968)</h4>
+         <h4>Instant Replay (1969)</h4>
+         <h4>The Monkees Present (1969)</h4>
+         <h4>Changes (1970)</h4>
+         <h4>Pool It! (1987)</h4>
+         <h4>Justus (1996)</h4>
+         <h4>Good Times! (2016)</h4>
+   </div>
+   <div class="right view center">
+       <h3>Listen to our music</h3>
+         <p class="center">Clarksville</p>
         <audio controls>
   <source src="./Media/music/Clarksville.mp3" type="audio/mpeg">
 </audio>
@@ -172,49 +148,16 @@ p{
  <audio controls>
   <source src="./Media/music/SteppingStone.mp3" type="audio/mpeg">
 </audio>
-      </div>
-      <div class="row size">
+   </div>
+     <div class="right view center">
         <h3>Watch our music</h3>
-        <video width="400" height="280" controls>
+        <video width="360" height="240" controls>
   <source src="./Media/video/TheMonkees.mp4" type="video/mp4">
 </video>
       </div>
-      
-    </div>
-    
-        <div class="row left scroll">
-            <div class="col-xs-12 col-sm-12 col-md-8 center">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 center">
-                        <h3 class="history-heading uppercase">Discography</h3>
-                    </div>
-                </div>
-                <div class="history-items">
-                    <div class="timeline-item" dates="1966-1967">
-                        <h4>The Monkees(1966)</h4>
-                        <h4>More of the Monkees(1967)</h4>
-                        <h4>Headquarters(1967)</h4>
-                        <h4>Pisces, Aquarius, Capricorn & Jones Ltd.(1967)</h4>
-                    </div>
-                    <div class="timeline-item" dates="1968-1970">
-                        <h4>The Birds, The Bees & the Monkees (1968)</h4>
-                        <h4>Head (1968)</h4>
-                        <h4>Instant Replay (1969)</h4>
-                        <h4>The Monkees Present (1969)</h4>
-                        <h4>Changes (1970)</h4>
-                    </div>
-                    <div class="timeline-item" dates="1987-2016">
-                        <h4>Pool It! (1987)</h4>
-                        <h4>Justus (1996)</h4>
-                        <h4>Good Times! (2016)</h4>
-                    </div>
-                    
-            </div>
-                </div>
-            </div>
-         <h3>See our photo album</h3>
-         <div class="row photo scroll">
+         <div class="photo scroll center">
         <div class="row">
+              <h3> See our photo album</h3>
               <img class="img" src="./Media/images/album.jpg" alt="Album cover photo"/> 
             <img class="img" src="./Media/images/album2.jpg" alt="Album cover photo"/> 
             <img class="img" src="./Media/images/band.jpg" alt="Album cover photo"/> 
@@ -225,7 +168,7 @@ p{
               <img class="img" src="./Media/images/cover4.png" alt="Album cover photo"/> 
                <img class="img" src="./Media/images/monkees.jpg" alt="Album cover photo"/> 
            </div>
-    </div>
+           </div>
     </section>
  <footer class="container-fluid">
         <div id="footer-details" class="row">
