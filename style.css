@@ -15,16 +15,15 @@ h1 ,h3 {
     margin:10px 30px 30px 30px ;
 			}
 
-	.textposition{
+	.textPosition{
 	height:250px;
 	text-align:center;
 	}
 .logo {
     margin-left: 2px;
     width:100vw;
-    height: 40vh;
-    background: url("./Media/images/cover4.png");
-    background-position: center;
+    height: 283px;
+    background: url("./Media/images/monkees1.jpg");
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -93,47 +92,10 @@ h1 ,h3 {
     background-color: #000;
 }
 /*-----------------Media Page------*/
-.timeline-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    color:blue;
-    border-left: 1px solid;
-}
-
-.timeline-item p {
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item::before {
-    content: attr(dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item::after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background: ivory;
-}
 
 .history-heading {
     color: #fafafa;
     margin-bottom: 50px;
-}
-
-.history-items {
-    margin-bottom: 30px;
 }
 
 /*--------------Footer -------*/
@@ -203,14 +165,8 @@ button[type="submit"] {
  
 /*-----Mobile--- */
 
-@media(max-width:490px){
-    
-
-
-#nav{
-    display: none;
-}
 .navDefault{
+    z-index: 100;
     position: fixed;
     top: 0;
     left:0;
@@ -226,7 +182,7 @@ button{
     text-transform: uppercase;
     cursor: pointer;
 }
-.dropdownMenu {
+.dropDownMenu {
     list-style: none;
     margin:0;
     padding: 0;
@@ -242,7 +198,7 @@ button{
     transition: .5s ease-in-out;
     
 }
-.dropdownLink{
+.dropDownLink{
     text-decoration: none;
     display: block;
     background-color: blue;
@@ -250,23 +206,19 @@ button{
     padding: 10px 5px;
     transition: background-color .5s ease-in-out, color .5s ease-in-out;
 }
-.dropdownLink:hover{
+.dropDownLink:hover{
     color:navy;
     background-color: purple;
 }
-.dropdown{
+.dropDown{
     width: 150px;
     position: relative;
 }
-.dropdown:hover button{
+.dropDown:hover button{
     background-color: orange;
 }
-.dropdown:hover .dropdownMenu{
+.dropDown:hover .dropDownMenu{
    transform: translateY(0); 
 }
-}
-@media(min-width:490px){
-    .navDefault{
-        display: none;
-    }
-}
+
+

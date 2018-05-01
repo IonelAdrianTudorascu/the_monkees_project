@@ -13,54 +13,50 @@
     body{
         background-color:darkgrey;
     }
-    
-   #left {
-    top: 10px;
-    float: left;
-    margin:10px 30px 30px 30px ;
-			}
-	.scroll {
-    overflow: scroll;
-}
-	.textposition{
+  	.scroll {
+    overflow:hidden;
+    }
+    .scroll:hover{
+        overflow-y:scroll;
+    }
+	.textPosition{
 	height:350px;
 	text-align:center;
+	width:200px;
 	}
 
-#left {
-    text-align:center;
-    top:0px;
+    #left {
+    top:10px;
     float: left;
     margin:10px 10px 10px 10px;
-}
-.section-heading{
+    }
+    .section-heading{
     text-align: center;
     color: ivory;
-}
-.personal-info-item{
+    }
+    .personal-info-item{
     color:red;
-}
-.three-reasons-heading{
+    }
+    .three-reasons-heading{
     color:blue;
-}
-
-
+    }
+   
 </style>
 </head>
 <body>
-      <nav class="navDefault">
-       <div class="dropdown">
+    <nav class="hidden-sm hidden-md hidden-lg navDefault">
+       <div class="dropDown">
             <button>The Monkees</button>
-        <ul class="dropdownMenu">
-            <li class="dropdownItem"><a href="index.html" class="dropdownLink"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
-            <li class="dropdownItem"><a href="about.html" class="dropdownLink"><i class="fa fa-book" aria-hidden="true"></i>About</a></li>
-            <li class="dropdownItem"><a href="member.html" class="dropdownLink"><i class="fa fa-user" aria-hidden="true"></i>Band</a></li>
-            <li class="dropdownItem"><a href="media.html" class="dropdownLink"><i class="fa fa-tv" aria-hidden="true"></i>Media</a></li>
-            <li class="dropdownItem"><a href="contact.html" class="dropdownLink"><i class=" fa fa-envelope" aria-hidden="true"></i>Contact</a></li>
+        <ul class="dropDownMenu">
+            <li class="dropDownItem"><a href="index.html" class="dropDownLink"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+            <li class="dropDownItem"><a href="about.html" class="dropDownLink"><i class="fa fa-book" aria-hidden="true"></i>About</a></li>
+            <li class="dropDownItem"><a href="member.html" class="dropDownLink"><i class="fa fa-user" aria-hidden="true"></i>Band</a></li>
+            <li class="dropDownItem"><a href="media.html" class="dropDownLink"><i class="fa fa-tv" aria-hidden="true"></i>Media</a></li>
+            <li class="dropDownItem"><a href="contact.html" class="dropDownLink"><i class=" fa fa-envelope" aria-hidden="true"></i>Contact</a></li>
         </ul>
        </div>
     </nav>
-     <header class="container-fluid">
+     <header class="hidden-xs container-fluid ">
                <div class="row">
                 <div class="logo">
                 </div>
@@ -89,44 +85,18 @@
  <section>
     <div>
       <img id="left" src="./Media/images/album2.jpg" alt="Album cover photo"/> 
-         <div class="row row-table">
-            <div  class="col-xs-12 col-sm-12 col-md-2 bg-color-personal-info textposition">
-                <div  class="row">
-                    <div class="col-md-12">
-                        <h3 class="section-heading uppercase">For Bookings Contact : </h3>
-                    </div>
-                </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">Name:</p>
-                    </div>
-                    <div class="value">
-                        <p>John Grey</p>
-                    </div>
-                </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">Address:</p>
-                    </div>
-                    <div class="value">
-                        <p>188 Sunnyvale,NY USA</p>
-                    </div>
-                </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">Phone:</p>
-                    </div>
-                    <div class="value">
-                        <p>555 225 3330321</p>
-                    </div>
-                </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">Email:</p>
-                    </div>
-                    <div class="value">
-                        <p>john_grey@hotmail.com</p>
-                    </div>
+         <div class="row">
+            <div  class="col-xs-12 col-sm-12 col-md-2 bg-color-personal-info textPosition">
+                <div class="col-xs-12 col-md-4 ">
+                        <h3 class="section-heading uppercase">For Bookings Contact:</h3>
+                          <h4 class="three-reasons-heading uppercase">Name:</h4>
+                            <p class="personal-info-item">John Grey</p>
+                             <h4 class="three-reasons-heading uppercase">Address:</h4> 
+                             <p class="personal-info-item">188 Sunnyvale,NY USA</p>
+                                <h4 class="three-reasons-heading uppercase">Phone:</h4>
+                                <p class="personal-info-item">555-2253330321</p>
+                                <h4 class="three-reasons-heading uppercase">Email:</h4>
+                                    <p class="personal-info-item">john_grey@hotmail.com</p>
                 </div>
             </div>
                 <div  class="col-xs-12 col-sm-12 col-md-4 bg-color-three-reasons">
@@ -143,7 +113,7 @@
                             </div>
                             <div class="col-xs-10 col-sm-10 ">
                                 <h4 class="three-reasons-heading uppercase">How we started ?</h4>
-                                <p  class="textposition scroll personal-info-item">The Monkees were an American rock and pop band originally active between 1965 and 1971, with subsequent reunion albums and tours in the decades that followed. They were formed in Los Angeles in 1965 by Bob Rafelson and Bert Schneider for the American television series The Monkees which aired from 1966 to 1968. The musical acting quartet was composed of Americans Micky Dolenz, Michael Nesmith, and Peter Tork; and British actor and singer Davy Jones. The band's music was initially supervised by producer Don Kirshner, backed by the songwriting duo of Tommy Boyce and Bobby Hart.
+                                <p  class="textPosition scroll personal-info-item">The Monkees were an American rock and pop band originally active between 1965 and 1971, with subsequent reunion albums and tours in the decades that followed. They were formed in Los Angeles in 1965 by Bob Rafelson and Bert Schneider for the American television series The Monkees which aired from 1966 to 1968. The musical acting quartet was composed of Americans Micky Dolenz, Michael Nesmith, and Peter Tork; and British actor and singer Davy Jones. The band's music was initially supervised by producer Don Kirshner, backed by the songwriting duo of Tommy Boyce and Bobby Hart.
 The four actor-musicians were allowed only limited roles in the recording studio for the first few months of their five-year career as "the Monkees". This was due in part to the amount of time required to film the television series.[1] Nonetheless, Nesmith did compose and produce some songs from the beginning, and Peter Tork contributed limited guitar work on the sessions produced by Nesmith. They eventually fought for the right to collectively supervise all musical output under the band's name. The television show was canceled in 1968, but the band continued to record music through 1971.
                                 </p>
                             </div>
@@ -156,7 +126,7 @@ The four actor-musicians were allowed only limited roles in the recording studio
                             </div>
                             <div class="col-xs-10 col-sm-10">
                                 <h4 class="three-reasons-heading uppercase">What can we offer?</h4>
-                                <p class="textposition scroll personal-info-item">
+                                <p class="textPosition scroll personal-info-item">
                                     We can give you  unforgetable moments with all of our songs . Here you have some of our songs : 
                                     (I'm Not Your) Steppin' Stone/(Theme From) The Monkees/Cuddly Toy/Daily Nightly/Daydream Believer/Don't Call On Me/Going Down/I'm A Believer/Last Train To Clarksville/Mary Mary/No Time/Pleasant Valley Sunday/Randy Scouse Git/Tapioca Tundra/Valleri/Words
                                 </p>

@@ -38,7 +38,7 @@
     width:100px;
 }
 .scroll{
-    overflow:scroll;
+    overflow:hidden;
 }
 .photo{
     left:2px;
@@ -75,21 +75,19 @@ p{
     </style>
 </head>
 <body>
-
-    <nav class="navDefault">
-       <div class="dropdown">
+   <nav class="hidden-sm hidden-md hidden-lg navDefault">
+       <div class="dropDown">
             <button>The Monkees</button>
-        <ul class="dropdownMenu">
-            <li class="dropdownItem"><a href="index.html" class="dropdownLink"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
-            <li class="dropdownItem"><a href="about.html" class="dropdownLink"><i class="fa fa-book" aria-hidden="true"></i>About</a></li>
-            <li class="dropdownItem"><a href="member.html" class="dropdownLink"><i class="fa fa-user" aria-hidden="true"></i>Band</a></li>
-            <li class="dropdownItem"><a href="media.html" class="dropdownLink"><i class="fa fa-tv" aria-hidden="true"></i>Media</a></li>
-            <li class="dropdownItem"><a href="contact.html" class="dropdownLink"><i class=" fa fa-envelope" aria-hidden="true"></i>Contact</a></li>
-        
+        <ul class="dropDownMenu">
+            <li class="dropDownItem"><a href="index.html" class="dropDownLink"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+            <li class="dropDownItem"><a href="about.html" class="dropDownLink"><i class="fa fa-book" aria-hidden="true"></i>About</a></li>
+            <li class="dropDownItem"><a href="member.html" class="dropDownLink"><i class="fa fa-user" aria-hidden="true"></i>Band</a></li>
+            <li class="dropDownItem"><a href="media.html" class="dropDownLink"><i class="fa fa-tv" aria-hidden="true"></i>Media</a></li>
+            <li class="dropDownItem"><a href="contact.html" class="dropDownLink"><i class=" fa fa-envelope" aria-hidden="true"></i>Contact</a></li>
         </ul>
        </div>
     </nav>
-     <header class="container-fluid">
+     <header class="hidden-xs container-fluid">
                <div class="row">
                 <div class="logo">
                 </div>
@@ -115,7 +113,7 @@ p{
                 </div>
 </header>
 <section class="container-fluid">
-   <div  id="left" class="view center">
+   <div  id="left" class="col-xs-12 col-sm-12 col-md-6 view center">
        <h3>Discography</h3>
          <h4>The Monkees(1966)</h4>
          <h4>More of the Monkees(1967)</h4>
@@ -130,7 +128,7 @@ p{
          <h4>Justus (1996)</h4>
          <h4>Good Times! (2016)</h4>
    </div>
-   <div class="right view center">
+   <div class="col-xs-12 col-sm-12 col-md-6 right view center">
        <h3>Listen to our music</h3>
          <p class="center">Clarksville</p>
         <audio controls>
@@ -149,7 +147,7 @@ p{
   <source src="./Media/music/SteppingStone.mp3" type="audio/mpeg">
 </audio>
    </div>
-     <div class="right view center">
+     <div class="col-xs-12 col-sm-12 col-md-6  right view center">
         <h3>Watch our music</h3>
         <video width="360" height="240" controls>
   <source src="./Media/video/TheMonkees.mp4" type="video/mp4">

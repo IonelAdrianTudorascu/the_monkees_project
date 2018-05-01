@@ -13,23 +13,34 @@
         body {
             background-color:black;
         }
-        .mrg{
-        left:10px;
+        .divPosition{
+            display: inline-block;		
+			vertical-align: top;
+			width:700px;
+			margin:2px 0 ;
+		
         }      
         .float{
+            margin-right:40px;
             float:right;
+            margin-bottom:10px;
         }
         .left{
-            float: left;
+            margin-left:10px;
+            float:left ;
         }
          .scroll{
             word-wrap: break-word;
             text-align:center;
             top:5px;
-            overflow:scroll;
+            overflow:hidden;
             color:ivory;
-            height:450px;
-            left:30px;
+            height:380px;
+            left:10px;
+         }
+         .scroll:hover{
+           overflow-y:scroll;
+           overflow-x:break-word;
          }
          h2{
              color: yellow;
@@ -40,21 +51,19 @@
     </style>
 </head>
 <body>
-
-    <nav class="navDefault">
-       <div class="dropdown">
+   <nav class="hidden-sm hidden-md hidden-lg navDefault">
+       <div class="dropDown">
             <button>The Monkees</button>
-        <ul class="dropdownMenu">
-            <li class="dropdownItem"><a href="index.html" class="dropdownLink"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
-            <li class="dropdownItem"><a href="about.html" class="dropdownLink"><i class="fa fa-book" aria-hidden="true"></i>About</a></li>
-            <li class="dropdownItem"><a href="member.html" class="dropdownLink"><i class="fa fa-user" aria-hidden="true"></i>Band</a></li>
-            <li class="dropdownItem"><a href="media.html" class="dropdownLink"><i class="fa fa-tv" aria-hidden="true"></i>Media</a></li>
-            <li class="dropdownItem"><a href="contact.html" class="dropdownLink"><i class=" fa fa-envelope" aria-hidden="true"></i>Contact</a></li>
-        
+        <ul class="dropDownMenu">
+            <li class="dropDownItem"><a href="index.html" class="dropDownLink"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+            <li class="dropDownItem"><a href="about.html" class="dropDownLink"><i class="fa fa-book" aria-hidden="true"></i>About</a></li>
+            <li class="dropDownItem"><a href="member.html" class="dropDownLink"><i class="fa fa-user" aria-hidden="true"></i>Band</a></li>
+            <li class="dropDownItem"><a href="media.html" class="dropDownLink"><i class="fa fa-tv" aria-hidden="true"></i>Media</a></li>
+            <li class="dropDownItem"><a href="contact.html" class="dropDownLink"><i class=" fa fa-envelope" aria-hidden="true"></i>Contact</a></li>
         </ul>
        </div>
     </nav>
-     <header class="container-fluid">
+     <header class="hidden-xs container-fluid">
                <div class="row">
                 <div class="logo">
                 </div>
@@ -83,7 +92,7 @@
 <section class="container-fluid ">
     <h2>This are The Monkees : </h2>
             <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6 block float scroll"><h3 class="uppercase">Davy Jones</h3>
+            <div class="col-xs-12 col-sm-12 col-md-6 divPosition block scroll"><h3 class="uppercase">Davy Jones</h3>
                  <img src="./Media/images/dj.jpg" alt="Album cover photo" class="left"/> 
                  <p>David Thomas Jones (30 December 1945 – 29 February 2012) was an English singer-songwriter, musician, actor and businessman best known as a member of the band the Monkees, and for starring in the TV series of the same name. His acting credits include a Tony-nominated role as the Artful Dodger in the original London and Broadway productions of Oliver! as well as a starring cameo role in a hallmark episode of The Brady Bunch television show and later reprised parody film; Love, American Style; and My Two Dads. Jones is considered one of the great teen idols.[1][2]</p>
                  <h4>Early life</h4>
@@ -339,7 +348,7 @@ Daydream Believin, Hercules Promotions, First Edition, ISBN 0-9618614-1-X (2000)
            </div>
              <div class="row mrg">
                  
-            <div class="col-xs-12 col-sm-12 col-md-6 block left scroll">
+            <div class="col-xs-12 col-sm-12 col-md-6 block divPosition scroll">
                  <h3 class="uppercase">Micky Dolenz</h3>                 
                  <img  src="./Media/images/md.jpg" alt="Album cover photo" class="left"/>
                  <p>George Michael Dolenz Jr. (born March 8, 1945) is an American actor, musician, television director, radio personality and theater director, best known as a vocalist and drummer of the 1960s pop/rock band the Monkees.</p>
@@ -498,7 +507,7 @@ Out Of Nowhere (7A Records, 2017)</h6><br>
             </div>
         </div>
      <div class="row mrg">
-            <div class="col-xs-12 col-sm-12 col-md-6 block left scroll">
+            <div class="col-xs-12 col-sm-12 col-md-6 block divPosition scroll">
                 <h3 class="uppercase">Michael Nesmith</h3>
                  <img src="./Media/images/mn.jpg" alt="Album cover photo" class="left"/>
                  <p>Robert Michael Nesmith (born December 30, 1942) is an American musician, songwriter, actor, producer, novelist, businessman, and philanthropist, best known as a member of the pop rock band the Monkees and co-star of the TV series The Monkees (1966–1968).</p> Nesmith's songwriting credits include "Different Drum" (sung by Linda Ronstadt with the Stone Poneys).
@@ -736,7 +745,7 @@ Infinite Tuesday: An Autobiographical Riff (2017) (narrated by Nesmith)</h6><br>
  The Mirror (UK), March 5, 2011</p> <br>
            </div>
              <div class="row">
-                 <div class="col-xs-12 col-sm-12 col-md-6 block float scroll">
+                 <div class="col-xs-12 col-sm-12 col-md-6 block divPosition scroll">
                 <h3 class="uppercase">Peter Tork</h3>
                  <img  src="./Media/images/pt.jpg" alt="Album cover photo" class="left"/> 
                  <p>Peter Tork (born Peter Halsten Thorkelson,[1] February 13, 1942) is an American musician and actor, best known as the keyboardist and bass guitarist of the Monkees.</p>

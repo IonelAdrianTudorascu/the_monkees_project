@@ -28,8 +28,11 @@
             word-wrap: break-word;
             text-align:center;
             top:5px;
-            overflow:scroll;
-            height:830px;
+            overflow:hidden;
+            height:790px;
+        }
+        .scroll:hover{
+            overflow-y:scroll;
         }
         h3{
             color:lime;
@@ -40,21 +43,19 @@
 </style>
 </head>
 <body>
-
-    <nav class="navDefault">
-       <div class="dropdown">
+<nav class="hidden-sm hidden-md hidden-lg navDefault">
+       <div class="dropDown">
             <button>The Monkees</button>
-        <ul class="dropdownMenu">
-            <li class="dropdownItem"><a href="index.html" class="dropdownLink"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
-            <li class="dropdownItem"><a href="about.html" class="dropdownLink"><i class="fa fa-book" aria-hidden="true"></i>About</a></li>
-            <li class="dropdownItem"><a href="member.html" class="dropdownLink"><i class="fa fa-user" aria-hidden="true"></i>Band</a></li>
-            <li class="dropdownItem"><a href="media.html" class="dropdownLink"><i class="fa fa-tv" aria-hidden="true"></i>Media</a></li>
-            <li class="dropdownItem"><a href="contact.html" class="dropdownLink"><i class=" fa fa-envelope" aria-hidden="true"></i>Contact</a></li>
-        
+        <ul class="dropDownMenu">
+            <li class="dropDownItem"><a href="index.html" class="dropDownLink"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+            <li class="dropDownItem"><a href="about.html" class="dropDownLink"><i class="fa fa-book" aria-hidden="true"></i>About</a></li>
+            <li class="dropDownItem"><a href="member.html" class="dropDownLink"><i class="fa fa-user" aria-hidden="true"></i>Band</a></li>
+            <li class="dropDownItem"><a href="media.html" class="dropDownLink"><i class="fa fa-tv" aria-hidden="true"></i>Media</a></li>
+            <li class="dropDownItem"><a href="contact.html" class="dropDownLink"><i class=" fa fa-envelope" aria-hidden="true"></i>Contact</a></li>
         </ul>
        </div>
     </nav>
-     <header class="container-fluid">
+     <header class="hidden-xs container-fluid">
                <div class="row">
                 <div class="logo">
                 </div>
@@ -82,7 +83,7 @@
 <section class="container-fluid">
  <div class="row">
      <div class="col-xs-12 col-sm-12 col-md-4 float1">
-    <table >
+    <table>
 <th colspan="2" style="text-align:center;font-size:125%;font-weight:bold;background-color: navy"><span>The Monkees</span></th>
 </tr>
 <tr>
@@ -95,7 +96,7 @@
 </tr>
 <tr>
 <th scope="row">Origin</th>
-<td><a href="#" title="Los Angeles">Los Angeles</a>, <a href="/wiki/California" title="California">California</a>, U.S.</td>
+<td><a href="#" title="Los Angeles">Los Angeles</a>, <a href="#" title="California">California</a>, U.S.</td>
 </tr>
 <tr>
 <th scope="row">Genres</th>
@@ -127,7 +128,7 @@
 <td>
 <div class="hlist">
 <ul>
-<li><a href="/#" title="Colgems Records">Colgems</a></li>
+<li><a href="#" title="Colgems Records">Colgems</a></li>
 <li><a href="#" title="RCA Records">RCA</a></li>
 <li><a href="#" title="Bell Records">Bell</a></li>
 <li><a href="#" title="Arista Records">Arista</a></li>
