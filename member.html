@@ -11,20 +11,18 @@
     <meta name="viewport" content="width=device-width, initial-scale-1">
     <style>
         body {
-            background-color:black;
+            background-color:brown;
+        }
+        .ui-menu-color-members {
+         background-color:brown;   
         }
         .divPosition{
             display: inline-block;		
 			vertical-align: top;
-			width:700px;
-			margin:2px 0 ;
-		
-        }      
-        .float{
-            margin-right:40px;
-            float:right;
-            margin-bottom:10px;
-        }
+			width:600px;
+			margin-bottom:5px ;
+		}      
+        
         .left{
             margin-left:10px;
             float:left ;
@@ -40,7 +38,7 @@
          }
          .scroll:hover{
            overflow-y:scroll;
-           overflow-x:break-word;
+           overflow-x:auto;
          }
          h2{
              color: yellow;
@@ -48,6 +46,15 @@
          }
          h4{color:lightgreen;}
          h5{color: lightblue;}
+     @media  (max-width: 1000px) {
+    
+    .divPosition
+    {
+    margin: auto;
+    width: 95%;
+    text-align:center;
+    }
+}
     </style>
 </head>
 <body>
@@ -92,6 +99,7 @@
 <section class="container-fluid ">
     <h2>This are The Monkees : </h2>
             <div class="row">
+                <div class="row mrg">
             <div class="col-xs-12 col-sm-12 col-md-6 divPosition block scroll"><h3 class="uppercase">Davy Jones</h3>
                  <img src="./Media/images/dj.jpg" alt="Album cover photo" class="left"/> 
                  <p>David Thomas Jones (30 December 1945 – 29 February 2012) was an English singer-songwriter, musician, actor and businessman best known as a member of the band the Monkees, and for starring in the TV series of the same name. His acting credits include a Tony-nominated role as the Artful Dodger in the original London and Broadway productions of Oliver! as well as a starring cameo role in a hallmark episode of The Brady Bunch television show and later reprised parody film; Love, American Style; and My Two Dads. Jones is considered one of the great teen idols.[1][2]</p>
@@ -346,7 +354,7 @@ Daydream Believin, Hercules Promotions, First Edition, ISBN 0-9618614-1-X (2000)
  Nielsen Business Media, Inc (20 February 1965). "Who Is David Jones?". Billboard. Retrieved 1 March 2012.
  Nielsen Business Media, Inc (17 July 1965). "Colpix presents David Jones". Billboard. Retrieved 1 March 2012.</h6>
            </div>
-             <div class="row mrg">
+             
                  
             <div class="col-xs-12 col-sm-12 col-md-6 block divPosition scroll">
                  <h3 class="uppercase">Micky Dolenz</h3>                 

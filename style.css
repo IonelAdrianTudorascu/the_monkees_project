@@ -89,8 +89,10 @@ h1 ,h3 {
     background-color: red;
 }
 .ui-menu-color-members {
-    background-color: #000;
+    background-color:brown;   
 }
+    
+
 /*-----------------Media Page------*/
 
 .history-heading {
@@ -105,6 +107,7 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+    width:105%;
 }
 .social-links {
     padding-bottom: 15px;
@@ -165,6 +168,8 @@ button[type="submit"] {
  
 /*-----Mobile--- */
 
+
+
 .navDefault{
     z-index: 100;
     position: fixed;
@@ -220,5 +225,7 @@ button{
 .dropDown:hover .dropDownMenu{
    transform: translateY(0); 
 }
+
+
 
 

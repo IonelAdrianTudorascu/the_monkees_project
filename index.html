@@ -18,11 +18,12 @@
     }
     .scroll:hover{
         overflow-y:scroll;
+        overflow-x:auto;
     }
 	.textPosition{
 	height:350px;
 	text-align:center;
-	width:200px;
+	width:160px;
 	}
 
     #left {
@@ -40,6 +41,20 @@
     .three-reasons-heading{
     color:blue;
     }
+     @media  (max-width: 980px) {
+    
+    .textPosition
+    {
+    margin: auto;
+    width: 95%;
+    text-align:center;
+    }
+     #left {
+    margin: auto;
+    width: 75%;
+    text-align:center;
+    }
+}
    
 </style>
 </head>
@@ -82,7 +97,7 @@
                 </div>
 </header>
  
- <section>
+ <section class="container-fluid">
     <div>
       <img id="left" src="./Media/images/album2.jpg" alt="Album cover photo"/> 
          <div class="row">
@@ -90,19 +105,19 @@
                 <div class="col-xs-12 col-md-4 ">
                         <h3 class="section-heading uppercase">For Bookings Contact:</h3>
                           <h4 class="three-reasons-heading uppercase">Name:</h4>
-                            <p class="personal-info-item">John Grey</p>
+                            <p class="personal-info-item">Steve Grey</p>
                              <h4 class="three-reasons-heading uppercase">Address:</h4> 
                              <p class="personal-info-item">188 Sunnyvale,NY USA</p>
                                 <h4 class="three-reasons-heading uppercase">Phone:</h4>
                                 <p class="personal-info-item">555-2253330321</p>
                                 <h4 class="three-reasons-heading uppercase">Email:</h4>
-                                    <p class="personal-info-item">john_grey@hotmail.com</p>
+                                    <p class="personal-info-item">steve_grey@hotmail.com</p>
                 </div>
-            </div>
+                </div>
                 <div  class="col-xs-12 col-sm-12 col-md-4 bg-color-three-reasons">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="section-heading uppercase"> About The Monkees</h3>
+                      <h3 class="section-heading uppercase"> About The Monkees</h3>
                     </div>
                 </div>
                 <div class="row">
