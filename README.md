@@ -1,48 +1,48 @@
 
-Hello everybody ,
+------
+# **The Monkees** Website Project
 
-I am Adrian ,
+## For a preview of the webiste click [here](https://ioneladriantudorascu.github.io/the_monkees_project/)
 
+--- 
+## Description
 
-This is my first project,
+------
 
-It is called "The Monkees"
+![alt text][logo]
 
-For creating this site I was used the files gived by the Code Institute team (audio,video,pictures)
-
-I have writed all the code in Cloud9 9 environment (Thank you Cloud9 team) :
-
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
-
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Happy coding!
-The Cloud9 IDE team
+[logo]:https://www.sheknows.com/wp-content/uploads/2018/08/the-monkees-videos_efuehv.jpeg "Monkees logo"
 
 
-I also used the knowledge of HTML and CSS provided to me by the Code Institute Team (Thank you Code Institue Team )
+## This is a fictional  webpage for **The Monkees** rock band.
+---
 
-I was using the boostrap for the multitude of preseted elements, fontawsome for the nice icons and cloudflare for nice hover effects.
+## **The Monkees**  are an American rock and pop band originally active between 1965 and 1971, with subsequent reunion albums and tours in the decades that followed. They were formed in Los Angeles in 1965 by _Bob Rafelson_ and _Bert Schneider_ for the American television series **The Monkees** which aired from 1966 to 1968.
+---
+## The musical acting quartet was composed of  
 
-The Project contains the info for The Monkees rock band.
+### 1. Americans :
+ * *Micky Dolenz*, 
+ * *Michael Nesmith* 
+ * *Peter Tork* 
+### 2. British actor and singer  :
+*  *Davy Jones*
 
-The info was taken from wikipedia.com -->> The Monkees page and added to my site.
+---
+This website showcase **The Monkees** music, video and photo gallery
+---
 
-Also all the media buttons links are to The Monkees official media and social links. 
+------
 
-I have tested the functionality of the website on Cloud9 environment and also I have made it to work as gitHub page too.
+The website is structurated as a 5 pages site :
+---
+ ### 1. Home page also named [index.html](https://ioneladriantudorascu.github.io/the_monkees_project/)
+ 
+ ### 2.  The Monkees named [about.html](https://ioneladriantudorascu.github.io/the_monkees_project/about.html)
 
-I hope you all enjoy my project .
+ ### 3. Present members of the band named [member.html](https://ioneladriantudorascu.github.io/the_monkees_project/member.html)
 
-Keep coding to make more intresting web-pages and applications .
+ ### 4. Show case of music, video and photo gallery named [media.html](https://ioneladriantudorascu.github.io/the_monkees_project/media.html)
 
+ ### 5. For contact a  page named [contact.html](https://ioneladriantudorascu.github.io/the_monkees_project/contact.html)
+ ---
