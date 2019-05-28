@@ -11,7 +11,7 @@
 
 ------
 
-[picture of the monkees][logo]
+![picture of the monkees][logo]
 
 
 [logo]:https://www.sheknows.com/wp-content/uploads/2018/08/the-monkees-videos_efuehv.jpeg "Monkees logo"
