@@ -45,4 +45,4 @@ The website is structurated as a 5 pages site :
  ### 4. Show case of music, video and photo gallery named [media.html](https://ioneladriantudorascu.github.io/the_monkees_project/media.html)
 
  ### 5. For contact a  page named [contact.html](https://ioneladriantudorascu.github.io/the_monkees_project/contact.html)
- ---
+---
