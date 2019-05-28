@@ -66,6 +66,20 @@
  ### 4. Show case of music, video and photo gallery [mockup](https://github.com/IonelAdrianTudorascu/the_monkees_project/blob/master/Media/mockup_files/Media_Page.jpg) and the page  [media.html](https://ioneladriantudorascu.github.io/the_monkees_project/media.html)
 
  ### 5. For contact [mockup](https://github.com/IonelAdrianTudorascu/the_monkees_project/blob/master/Media/mockup_files/Contact_Page.jpg) and the page [contact.html](https://ioneladriantudorascu.github.io/the_monkees_project/contact.html)
-
-
+ 
  ---
+# Features
+
+## Existing features
+ * Social links - allows every user to visit The Monkees social media by clicking the link icons on the footer of any page.
+ * Navigate easily thru all the pages from the navigation bar 
+ * Navigate easily thru all the pages from the dropdown menu on the smaler screen resolutions (phones, tablets)
+* Video - allows any user to play the video by clicking on the play button, comes with controls so the user can adjust volume and make the video full screen.
+* Music playback - allows any user to play and pause any song of their choice in the selected tracks section.
+* Allows users to see some of the photos with the band . On hover the picture can be seen an zooming effect
+* User can get in contact with the developer via [contact.html](https://ioneladriantudorascu.github.io/the_monkees_project/contact.html) page 
+---
+## Features Left to Implement
+* Live updates on the latest news
+* A live chat box 
+---
