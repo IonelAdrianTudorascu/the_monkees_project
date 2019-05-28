@@ -83,3 +83,16 @@
 * Live updates on the latest news
 * A live chat box 
 ---
+## Technologies Used
+---
+* This project uses HTML and CSS programming languages.
+* [Cloud9](https://docs.c9.io/docs) 
+  - I used Cloud9 for my IDE while building the website.
+* [Google Fonts](https://fonts.google.com/) 
+  - The project uses Google fonts to style the website fonts.
+* [BootstrapCDN](https://getbootstrap.com/)
+  - The project uses Bootstrap to simplify the structure of the website and make the website responsive easily.
+  - The project also uses BootstrapCDN to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
+* [Visual Studio Code](https://code.visualstudio.com/)  for editing and preview the files 
+* Hover effect from [cloudflare](https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css)
+---
