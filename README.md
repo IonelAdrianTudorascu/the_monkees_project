@@ -96,3 +96,38 @@
 * [Visual Studio Code](https://code.visualstudio.com/)  for editing and preview the files 
 * Hover effect from [cloudflare](https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css)
 ---
+# Testing
+
+1. Navigation:
+
+*    I . Go to the "Home"page
+The Home page should be selected in the navigation bar.
+* 
+     II . Click on another page in the navigation bar, for example 'Media'
+*    III . The new page should display and be the current selection in the navigation bar.
+*   IV. Do this for all other pages
+
+2. Dropdown button:
+* I. Reduce screen rezolution to phone screen size
+* II. The main navigation and the cover photo should be gone and the dropdown button will appear on the top of the screen
+* III. On hover the dropdown menu will apear and now can navigate to other pages on click on that menu
+* IV. When not hovered the dropdown menu will disapear
+leaving just the button on screen
+
+3. Photo album section on media page 
+   - On hover over any picture the picture will zoom to 2x size  
+
+4. Footer
+* I. Social media buttons   
+    - On hover the social media buttons will change color 
+    - On click the social media buttons will redirect to Monkees official pages
+* II. Contact us 
+   - On hover the envelope icon  will change color
+   - On click the envelope icon will redirect to contact page 
+
+
+---
+# Deployment
+
+### The website was writen on [Cloud9](https://docs.c9.io/docs) and pushed and deployed on Github pages :  
+  - **[Monkees Project](https://ioneladriantudorascu.github.io/the_monkees_project/)** 
