@@ -131,3 +131,21 @@ leaving just the button on screen
 
 ### The website was writen on [Cloud9](https://docs.c9.io/docs) and pushed and deployed on Github pages :  
   - **[Monkees Project](https://ioneladriantudorascu.github.io/the_monkees_project/)** 
+# Credits 
+## Content
+ * All written content was obtained and revised from Wikipedia site [Wikipedia- The Monkees](https://en.wikipedia.org/wiki/The_Monkees)
+
+ ## Media
+ * The photos, music and video on  the media page were downloaded from Code Institute [git page](https://github.com/Code-Institute-Org/project-assets/tree/master/stream-1/band-assets)  
+ * The photo on the about page is from Wikipedia
+ * The photo on this readme file is from this [link](https://www.sheknows.com/wp-content/uploads/2018/08/the-monkees-videos_efuehv.jpe)
+
+ ## Code 
+* The photo and the code on the about page is taken from this Wikipedia(https://en.wikipedia.org/wiki/The_Monkees) page and edited to fit my page
+
+## Acknowledgements
+* I recevied inspiration for this project from the  [Code Institute](https://codeinstitute.net/) online training and their example projects.
+* Lots of thanks  to my mentors *Ilya Shygol* and *Simen Daehlin* for support and guidance on this project.
+
+## Disclaimer
+***The content of this Website is for educational purposes only.***
