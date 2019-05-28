@@ -145,7 +145,7 @@ leaving just the button on screen
 
 ## Acknowledgements
 * I recevied inspiration for this project from the  [Code Institute](https://codeinstitute.net/) online training and their example projects.
-* Lots of thanks  to my mentors *Ilya Shygol* and *Simen Daehlin* for support and guidance on this project.
+* Lots of thanks  to my mentors *Ilya Shmygol* and *Simen Daehlin* for support and guidance on this project.
 
 ## Disclaimer
 ***The content of this Website is for educational purposes only.***
