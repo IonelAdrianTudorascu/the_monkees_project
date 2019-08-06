@@ -5,6 +5,9 @@ header {
     
 }
 
+ body{
+        background-color:#FAD744;
+    }
 h1 ,h3 {
     color:blue;
     text-align: center;
@@ -76,20 +79,20 @@ h1 ,h3 {
 }
 /*--------- Colors and paddings -------*/
 .ui-menu-color-home {
-    background-color:darkgrey;
+    background-color:#FAD744;
 }
 
 .ui-menu-color-about {
-    background-color: navy;
+    background-color:#FAD744;
 }
 .ui-menu-color-contact {
-    background-color: #3498db;
+    background-color:  #42A5F5;
 }
 .ui-menu-color-media {
-    background-color: red;
+    background-color: #FAD744;
 }
 .ui-menu-color-members {
-    background-color:brown;   
+    background-color:#FAD744;   
 }
     
 
