@@ -24,8 +24,8 @@ h1 ,h3 {
 	}
 .logo {
     margin-left: 2px;
-    width:100vw;
-    height: 283px;
+    width:100%;
+    height: 40vw;
     background: url("./Media/images/monkees1.jpg");
     background-repeat: no-repeat;
     background-size:cover;
