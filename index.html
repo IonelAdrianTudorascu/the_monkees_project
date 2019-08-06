@@ -14,16 +14,12 @@
   	.scroll {
     overflow:hidden;
     }
-    .scroll:hover{
-        overflow-y:scroll;
-        overflow-x:auto;
-    }
+    
 	.textPosition{
-	height:350px;
+	height:360px;
 	text-align:center;
-	width:160px;
+	width:250px;
 	}
-
     #left {
     top:10px;
     float: left;
@@ -34,12 +30,13 @@
     color: ivory;
     }
     .personal-info-item{
-    color:red;
+    color:#3C493F;
     }
     .three-reasons-heading{
     color:blue;
     }
-     @media  (max-width: 980px) {
+
+    @media  (max-width: 980px) {
     
     .textPosition
     {
@@ -49,7 +46,6 @@
     }
      #left {
     margin: auto;
-    width: 75%;
     text-align:center;
     }
 }
@@ -70,9 +66,9 @@
        </div>
     </nav>
      <header class="hidden-xs container-fluid ">
-               <div class="row">
-                <div class="logo">
-                </div>
+                <div class="row">
+                 <div class="logo">
+                 </div>
                 </div>
             <div class="row">
                         <ul id="nav" class="list-inline clearfix">
@@ -96,12 +92,18 @@
 </header>
  
  <section class="container-fluid">
-    <div>
-      <img width="350" height="350" id="left" src="./Media/images/cover.jpg" alt="Album cover photo"/> 
-         <div class="row">
-            <div  class="col-xs-12 col-sm-12 col-md-2 bg-color-personal-info textPosition">
-                <div class="col-xs-12 col-md-4 ">
+    
+    <div class="row">
+        <div class="col-xs-12 col-md-3">
+         <img width="340" height="340" id="left" src="./Media/images/cover.jpg" alt="Album cover photo"/>
+        </div>
+        <div class="col-xs-12 col-md-3 textPosition">
+                       
                         <h3 class="section-heading uppercase">For Bookings Contact:</h3>
+                         <div class="col-xs-2 col-sm-2  col-md-2">
+                                <i class="textPosition three-reasons-icon fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <br>
                           <h4 class="three-reasons-heading uppercase">Name:</h4>
                             <p class="personal-info-item">Steve Grey</p>
                              <h4 class="three-reasons-heading uppercase">Address:</h4> 
@@ -110,60 +112,44 @@
                                 <p class="personal-info-item">555-2253330321</p>
                                 <h4 class="three-reasons-heading uppercase">Email:</h4>
                                     <p class="personal-info-item">steve_grey@hotmail.com</p>
-                </div>
-                </div>
-                <div  class="col-xs-12 col-sm-12 col-md-4 bg-color-three-reasons">
-                <div class="row">
-                    <div class="col-md-12">
-                      <h3 class="section-heading uppercase"> About The Monkees</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
-                        <div class="row">
+        </div>
+         
+        <div class="col-md-6">
+             <h3 class="section-heading uppercase"> About The Monkees</h3>
+              <div class="row">
+                    <div class="col-xs-12 col-md-6">
                             <div class="col-xs-2 col-sm-2  col-md-2">
                                 <i class="three-reasons-icon fa fa-question" aria-hidden="true"></i>
                             </div>
-                            <div class="col-xs-10 col-sm-10 ">
                                 <h4 class="three-reasons-heading uppercase">How we started ?</h4>
-                                <p  class="textPosition scroll personal-info-item">The Monkees were an American rock and pop band originally active between 1965 and 1971, with subsequent reunion albums and tours in the decades that followed. They were formed in Los Angeles in 1965 by Bob Rafelson and Bert Schneider for the American television series The Monkees which aired from 1966 to 1968. The musical acting quartet was composed of Americans Micky Dolenz, Michael Nesmith, and Peter Tork; and British actor and singer Davy Jones. The band's music was initially supervised by producer Don Kirshner, backed by the songwriting duo of Tommy Boyce and Bobby Hart.
-The four actor-musicians were allowed only limited roles in the recording studio for the first few months of their five-year career as "the Monkees". This was due in part to the amount of time required to film the television series.[1] Nonetheless, Nesmith did compose and produce some songs from the beginning, and Peter Tork contributed limited guitar work on the sessions produced by Nesmith. They eventually fought for the right to collectively supervise all musical output under the band's name. The television show was canceled in 1968, but the band continued to record music through 1971.
+                                <p  class="textPosition scroll personal-info-item">The Monkees were an American rock and pop band originally active between 1965 and 1971, with subsequent reunion albums and tours in the decades that followed. They were formed in Los Angeles in 1965 by Bob Rafelson and Bert Schneider for the American television series The Monkees which aired from 1966 to 1968. The musical acting quartet was composed of Americans Micky Dolenz, Michael Nesmith, and Peter Tork; and British actor and singer Davy Jones. The band's music was initially supervised by producer Don Kirshner.
                                 </p>
-                            </div>
-                        </div>
                     </div>
-                    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-xs-2 col-sm-2  col-md-2">
+                    <div class="col-xs-12 col-md-6">
+                                <div class="col-xs-12 col-md-3">
                                 <i class="three-reasons-icon fa fa-thumbs-up" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-xs-10 col-sm-10">
+                                </div>
                                 <h4 class="three-reasons-heading uppercase">What can we offer?</h4>
                                 <p class="textPosition scroll personal-info-item">
                                     We can give you  unforgetable moments with all of our songs . Here you have some of our songs : 
                                     (I'm Not Your) Steppin' Stone/(Theme From) The Monkees/Cuddly Toy/Daily Nightly/Daydream Believer/Don't Call On Me/Going Down/I'm A Believer/Last Train To Clarksville/Mary Mary/No Time/Pleasant Valley Sunday/Randy Scouse Git/Tapioca Tundra/Valleri/Words
                                 </p>
-                            </div>
-                        </div>
                     </div>
-                    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-xs-2 col-sm-2  col-md-2">
-                                <i class="three-reasons-icon fa fa-bolt" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-xs-10 col-sm-10">
-                                <h4 class="three-reasons-heading uppercase">Why hire us?</h4>
-                                <p class="personal-info-item">
-                                   We are the best rock band with a 50 years tradition 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+               </div>
+        
+         
+        
     </div>
-    </div>
-     </section>
+     
+    <div class="row">
+         <video width="740" height="240"  controls>
+          <source src="./Media/video/The Monkees- Hey Hey Were The Monkees.mp4" type="video/mp4">
+         </video>
+    </div>    
+    
+            
+    
+ </section>
   
 
 <footer class="container-fluid">
