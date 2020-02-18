@@ -9,7 +9,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="style.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale-1">
-    
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <script type="text/javascript">
+     (function(){
+      emailjs.init("user_9iO7fHb6Ac8rnocpo4QME");
+      })();
+    </script>   
 </head>
 <body>
 <nav class="hidden-sm hidden-md hidden-lg navDefault">
@@ -58,6 +63,7 @@
             </div>
             <div class="center-form">
                 <form>
+                    <form onsubmit="return sendMail(this);" method="POST">
                     <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
                     <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
                     <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="You`re request" required></textarea>
@@ -91,6 +97,7 @@
             </div>
         </div>
     </footer>
+    <script src="sendEmail.js"></script>
 </body>
 
 </html>
